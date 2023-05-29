@@ -1,0 +1,23 @@
+{
+  "name": "medical-appointment",
+  "private": "true",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.1",
+    "@hotwired/turbo-rails": "^7.3.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "esbuild": "^0.17.19",
+    "sass": "^1.62.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  },
+  "devDependencies": {
+    "vite": "4.3.0",
+    "vite-plugin-ruby": "3.2.0"
+  }
+}
